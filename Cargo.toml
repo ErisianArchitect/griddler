@@ -1,0 +1,18 @@
+[package]
+name = "griddler"
+version = "0.1.0"
+authors = ["ErisianArchitect <https://github.com/ErisianArchitect>"]
+edition = "2021"
+description = "Grid data structures of various kinds."
+repository = "https://github.com/ErisianArchitect/griddler"
+# documentation = "https://docs.rs/griddler"
+license = "MIT"
+readme = "README.md"
+
+[dependencies]
+panicmsg = "1.1.0"
+serde = { version = "1.0.215", optional = true, features = ["derive"]}
+
+[features]
+default = ['serde']
+serde = ["dep:serde"]

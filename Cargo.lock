@@ -12,9 +12,9 @@ dependencies = [
 
 [[package]]
 name = "panicmsg"
-version = "1.2.0"
+version = "1.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c0943233c90774fabcc8bae4b2f45bd817ce57f85b35a7fb6023bf6e982395c1"
+checksum = "074c941852b5a59932d7e7caca954d3731c01938fe4aa0f3d2f87d1470aef7ac"
 
 [[package]]
 name = "proc-macro2"
